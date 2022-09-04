@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/bin/node /Users/angelorlover/.yarn/bin/yarn.js start
+
+PATH: 
+  /Users/angelorlover/.yarn/bin:/Users/angelorlover/.config/yarn/global/node_modules/.bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/angelorlover/Library/Python/3.9/bin:/usr/locol/mysql/bin:/usr/local/mysql/support-files:/Users/angelorlover/.npm-global/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/angelorlover/RoadToSolid/demo/package.json: Unexpected token / in JSON at position 59
+      at JSON.parse (<anonymous>)
+      at /Users/angelorlover/.yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/angelorlover/.yarn/lib/cli.js:310:30)
+      at /Users/angelorlover/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "vite-template-solid",
+    "version": "0.0.0",
+    // "homepage": "https://angelorlover.github.io/demo",
+    "description": "",
+    "scripts": {
+      "start": "vite",
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview",
+      "deploy": "gh-pages -d build"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "gh-pages": "^4.0.0",
+      "vite": "^3.0.9",
+      "vite-plugin-solid": "^2.3.0"
+    },
+    "dependencies": {
+      "solid-js": "^1.5.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

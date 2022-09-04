@@ -1,0 +1,23 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://angelorlover.github.io/todo",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "vite": "^3.0.9",
+    "vite-plugin-solid": "^2.3.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.5.1"
+  }
+}
